@@ -1,0 +1,209 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+
+.blue{
+    color: #20A1D4;
+}
+.green{
+    color: #1CBC2C;
+}
+.orange{
+    color: #EF5F3C;
+}
+.black{
+    color: #424242;
+}
+.grey{
+    color: #777;
+}
+.light-grey{
+    color: #eaeaea;
+}
+
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.h-screen {
+    height: 100vh;
+   
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.max-w-sm {
+    margin: 2em auto;
+    max-width: 303px;
+    
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.w-full {
+    width: 100%;
+}
+.text-number{
+    font-family: Georgia,Times,Times New Roman,serif; 
+    font-weight: bold;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+       /* For Chrome or Safari */
+       progress::-webkit-progress-bar {
+        background-color: #eeeeee;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #EF5F3C !important;
+    }
+
+
+    /* For Firefox */
+    progress {
+        background-color: #eee;
+        width: 100%;
+    }
+
+    progress::-moz-progress-bar {
+        background-color: #EF5F3C !important;
+    }
+
+    /* For IE10 */
+    progress {
+        background-color: #eee;
+    }
+
+    progress {
+        background-color: #EF5F3C;
+    }
+
+.inner-content{
+    padding:1em;
+    border: 1px solid #eaeaea;
+    margin-top: -3px;
+    background-color: #eaeaea2e;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    background-color: #424242;
+    color: #eaeaea;
+    padding: 10px;
+    position: relative;
+    margin: 7px 0px;
+    text-align: center;
+}
+
+.box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 39px;
+    bottom: -8px;
+    border-top: 10px solid #424242;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: none;
+}
+
+.input__and__button{
+    display: flex;
+}
+
+
+.pt-12{
+    padding-top:12px;
+}
+.input-field .dollar-symbol {
+    position: absolute;
+    padding: 10px 13px;
+    color: #777;
+    font-weight: bolder;
+}
+  
+.input__and__button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 14px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input {
+    width: 90%;
+    height: 44px;
+    line-height: 44px;
+    font-weight: 600;
+    padding-left: 24px;
+    font-size: 16px;
+    border:1.5px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.btn-success{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #1CBC2C;
+    border-color: #4cae4c;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input__footer__text{
+    padding-top: 7px;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.btn-footer{
+    border-color: #777;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border: 2px solid #eaeaea;
+    border-radius: 4px;
+    font-weight: bolder;
+    color: #777;
+    margin-top: 10px;
+}
+.save_later, .tell_your{
+    width:49%;
+}
